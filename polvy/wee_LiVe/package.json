@@ -1,0 +1,31 @@
+{
+  "name": "wee_LiVe",
+  "version": "0.1.6",
+  "private": true,
+  "scripts": {
+    "dev": "node-dev ./bin/www",
+    "start": "pm2 start ./bin/www --name=wee_LiVe",
+    "restart": "pm2 restart ./bin/www --name=wee_LiVe",
+    "stop": "pm2 stop wee_LiVe"
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "pm2":"^5.2.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-jwt": "^6.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "node-media-server": "^2.1.4",
+    "socket.io": "^2.3.0",
+    "vue-video-player": "^6.0.0"
+  },
+  "devDependencies": {
+    "node-dev": "^5.0.0"
+  }
+}
